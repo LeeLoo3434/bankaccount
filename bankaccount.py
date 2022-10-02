@@ -1,6 +1,3 @@
-from ctypes import sizeof
-from io import BufferedRandom
-
 
 class BankAccount:
     def __init__(self, int_rate, balance= 0): 
